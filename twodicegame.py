@@ -16,7 +16,7 @@ while Roll_dice == 'yes' or Roll_dice == 'y':
     print(f'Die1: {die_1}\nDie2: {die_2} ')
 
     if die_1 == 6 and die_2 == 6:
-        print('That\'s a double {player}, your game starts now! ')
+        print(f'That\'s a double {player}, your game starts now! ')
         print('Congratulations!')
         exit()
     
