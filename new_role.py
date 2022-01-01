@@ -3,7 +3,7 @@ def show_messages(messages):
     Prints each short messages in the list
     '''
     for message in messages:
-        print(f'My new role for the year is:{messages}\n')
+        print(f'My new role for the year is:\n{message.title()}\n')
 
 some_lists = ['today is a blessing', '2022 is japa year', 'adding more trucks this year', 'taking  care of my health' ]
 show_messages(some_lists)
