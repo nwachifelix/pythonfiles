@@ -16,8 +16,8 @@ def show_messages(messages, sent_messages):
 
 def send_messages(sent_messages):
     print('\nAll the messages have been sent:\n ')
-    for sent_messages in sent_messages:
-        print(sent_messages)
+    for sent_message in sent_messages:
+        print(f'{sent_message.capitalize()}')
 
 messages = ['today is a blessing', '2022 is japa year', 'adding more trucks this year', 'taking  care of my health' ]
 sent_messages = []
