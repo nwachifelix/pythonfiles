@@ -19,5 +19,5 @@ def choice_cars(manufacturer, model, **mercedes_benz):
     mercedes_benz['mercedes_benz'] = model
     return mercedes_benz
 
-my_car = choice_cars('mercedes_benz', '2021 4matic', colour='black', special='custom plate',)
+my_car = choice_cars('mercedes_benz', '2022 4matic', colour='black', special='custom plate',)
 print(my_car)
