@@ -26,7 +26,7 @@ my_fav_restaurant.describe_restaurant()
 
 my_wife_restaurant = Restaurant('Mega Chicken', 'fried rice and gizard')
 print(f'\nMy wife\'s favouriye restaurant is: {my_wife_restaurant.name}. ')
-print(f'And her best meal there is: {my_wife_restaurant.cuisine} ')
+print(f'And her best meal there is: {my_wife_restaurant.cuisine}.')
 print('..........................................................')
 my_wife_restaurant.describe_restaurant()
 my_wife_restaurant.open_restaurant()
@@ -45,9 +45,9 @@ class User:
 
     def describe_user(self):
         '''Tells about about a junior dev from Nigeria'''
-        print(f'{self.first_name} {self.last_name} is a junior Python dev who specializes in data analysis and wed development. ')
-        print(f'From southeast part of {self.country}.')
-        print(f'whose location is {self.location}. ')
+        print(f'\n{self.first_name} {self.last_name} is a junior Python dev who specializes in data analysis and wed development. ')
+        print(f'From southeast part of {self.country},')
+        print(f'whose location is {self.location}, ')
         print(f'and is {self.age} years old. ')
 
     def greet_user(self):
