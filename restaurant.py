@@ -3,8 +3,8 @@ class Restaurant:
     
     def __init__(self, name, cuisine):
         '''Activate name and cuisine'''
-        self.name = name
-        self.cuisine = cuisine
+        self.name = name.title()
+        self.cuisine = cuisine.title()
 
     def describe_restaurant(self):
         '''Tells the type of restaurant and the cuisine offered.'''
